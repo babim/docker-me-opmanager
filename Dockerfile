@@ -1,6 +1,6 @@
 FROM babim/oraclelinuxbase:7
 ENV SOFT	opmanager
-ENV SOFTSUB	Central
+ENV SOFTSUB	Probe
 ENV EDITTION	enterprise
 ENV SOFT_HOME	/opt/ManageEngine/OpManager
 
