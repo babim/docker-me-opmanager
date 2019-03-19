@@ -1,4 +1,4 @@
-FROM babim/oraclelinuxbase:7
+FROM babim/centosbase:7-x86
 ENV SOFT	opmanager
 #ENV SOFTSUB	opmanager
 ENV EDITTION	essential
