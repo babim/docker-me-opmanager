@@ -1,7 +1,7 @@
 FROM babim/oraclelinuxbase:7
 ENV SOFT	opmanager
-ENV SOFTSUB	opmanager
-ENV EDITTION	essential
+ENV SOFTSUB	Central
+ENV EDITTION	enterprise
 ENV SOFT_HOME	/opt/ManageEngine/OpManager
 
 # install depend
