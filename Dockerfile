@@ -1,8 +1,8 @@
 FROM babim/oraclelinuxbase:7
-ENV SOFT	opmanager
+ENV SOFT	OpManager
 ENV SOFTSUB	Central
 ENV EDITTION	enterprise
-ENV SOFT_HOME	/opt/ManageEngine/OpManager
+ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 ENV FIXED	true
 
 # install depend
