@@ -3,6 +3,7 @@ ENV SOFT	OpManager
 #ENV SOFTSUB	opmanager
 ENV EDITTION	essential
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
+ENV APMINSTALL	true
 
 # install depend
 RUN yum install wget -y
