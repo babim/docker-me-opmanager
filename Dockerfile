@@ -1,7 +1,7 @@
 FROM babim/oraclelinuxbase:7
 ENV SOFT	OpManager
-ENV SOFTSUB	Probe
-ENV EDITTION	enterprise
+#ENV SOFTSUB	Probe
+ENV EDITTION	plus
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 ENV APMINSTALL	true
 
