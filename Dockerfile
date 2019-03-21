@@ -1,7 +1,6 @@
 FROM babim/centosbase:7-x86
 ENV SOFT	OpManager
-ENV SOFTSUB	Probe
-ENV EDITTION	enterprise
+ENV EDITTION	free
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 
 # install depend
