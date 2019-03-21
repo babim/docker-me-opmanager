@@ -1,7 +1,6 @@
 FROM babim/oraclelinuxbase:7
 ENV SOFT	OpManager
-#ENV SOFTSUB	Probe
-ENV EDITTION	plus
+ENV EDITTION	free
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 
 # install depend
