@@ -3,6 +3,7 @@ ENV SOFT	OpManager
 ENV SOFTSUB	Central
 ENV EDITTION	enterprise
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
+ENV MACHINE_TYPE x86
 
 # download option
 RUN yum install curl -y && \
