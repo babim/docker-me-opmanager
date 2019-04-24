@@ -2,6 +2,7 @@ FROM babim/centosbase:7-x86
 ENV SOFT	OpManager
 ENV EDITTION	free
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
+ENV MACHINE_TYPE x86
 
 # download option
 RUN yum install curl -y && \
