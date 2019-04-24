@@ -5,6 +5,7 @@ ENV EDITTION	essential
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 ENV FIXED	true
 ENV APMINSTALL	true
+ENV MACHINE_TYPE x86
 
 # download option
 RUN yum install curl -y && \
@@ -12,7 +13,7 @@ RUN yum install curl -y && \
     chmod +x /option.sh
 
 # install
-RUN curl -ss https://raw.githubusercontent.com/babim/docker-tag-options/master/z%20ManageEngine/${SOFT}_install.sh | bash
+RUN curl -s https://raw.githubusercontent.com/babim/docker-tag-options/master/z%20ManageEngine/${SOFT}_install.sh | bash
 
 # Set the default working directory as the installation directory.
 #WORKDIR ${SOFT_HOME}
