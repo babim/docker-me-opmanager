@@ -4,6 +4,7 @@ ENV SOFT	OpManager
 ENV EDITTION	essential
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 ENV APMINSTALL	true
+ENV MACHINE_TYPE x86
 
 # download option
 RUN yum install curl -y && \
