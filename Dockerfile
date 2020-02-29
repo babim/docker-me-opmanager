@@ -2,7 +2,8 @@ FROM babim/oraclelinuxbase:7
 ENV SOFT	OpManager
 ENV SOFTSUB	Probe
 ENV EDITTION	enterprise
-ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
+#ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
+ENV SOFT_HOME	/opt/ManageEngine
 ENV FIXED	true
 ENV MANUAL	true
 
