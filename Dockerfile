@@ -1,4 +1,4 @@
-FROM babim/oraclelinuxbase:7
+FROM babim/centosbase:7
 ENV SOFT	OpManager
 ENV SOFTSUB	Probe
 ENV EDITTION	enterprise
