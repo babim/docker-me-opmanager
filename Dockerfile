@@ -4,6 +4,7 @@ ENV SOFTSUB	Probe
 ENV EDITTION	enterprise
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 ENV FIXED	true
+ENV MANUAL	true
 
 # download option
 RUN yum install curl -y && \
