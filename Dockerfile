@@ -2,7 +2,6 @@ FROM babim/centosbase:7
 ENV SOFT	OpManager
 ENV SOFTSUB	Central
 ENV EDITTION	enterprise
-#ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 ENV SOFT_OPT	/opt/ManageEngine
 ENV SOFT_HOME	${SOFT_OPT}/${SOFT}${SOFTSUB}
 ENV FIXED	true
