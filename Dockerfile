@@ -21,4 +21,5 @@ VOLUME ["${SOFT_HOME}"]
 # Expose default HTTP connector port.
 EXPOSE 8060
 
+CMD ["/usr/sbin/init"]
 ENTRYPOINT ["/docker-entrypoint.sh"]
