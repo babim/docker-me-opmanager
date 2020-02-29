@@ -2,7 +2,8 @@ FROM babim/centosbase:7-x86
 ENV SOFT	OpManager
 #ENV SOFTSUB	opmanager
 ENV EDITTION	essential
-ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
+#ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
+ENV SOFT_HOME	/opt/ManageEngine
 ENV FIXED	true
 ENV MACHINE_TYPE x86
 ENV MANUAL	true
