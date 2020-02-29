@@ -5,6 +5,7 @@ ENV EDITTION	enterprise
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}${SOFTSUB}
 ENV FIXED	true
 ENV MACHINE_TYPE x86
+ENV MANUAL	true
 
 # download option
 RUN yum install curl -y && \
